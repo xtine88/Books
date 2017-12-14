@@ -9,6 +9,12 @@
     <p><%= @book.description %></p>
   </div>
 </div>
+
+<div class="row">
+  <div class="col-md-4">
+    <!-- where the reviews will go -->
+  </div>
+</div>
 <%= link_to "Back", root_path, class: "btn btn-danger" %>
 
 <% if user_signed_in? %>
